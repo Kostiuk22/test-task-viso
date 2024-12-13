@@ -4,7 +4,6 @@ import {
   Route,
   RouterProvider,
 } from 'react-router-dom';
-import './App.css';
 import MainLayout from './layouts/MainLayout/MainLayout';
 import SavedRecipes from './pages/SavedRecipes/SavedRecipes';
 import Home from './pages/Home/Home';
