@@ -1,0 +1,61 @@
+.mealItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mealItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.mealImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.mealInfo {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mealTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.mealCategory,
+.mealDescription {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.mealCategory {
+  font-style: italic;
+}
+
+.mealDescription {
+  color: #888;
+}
+
+.mealOrigin {
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+  margin-top: 5px;
+}

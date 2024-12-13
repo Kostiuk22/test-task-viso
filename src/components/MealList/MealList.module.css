@@ -1,0 +1,14 @@
+.mealList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+
+.mealItem:hover {
+  background-color: #f1f1f1;
+}
